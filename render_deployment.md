@@ -6,12 +6,11 @@
 
    - Заполнить следущие поля:
 
-      - Name: Произвольное имя
-      - Region: Тотже, что и у базы данных
-      - Branch: main (e.g., master/main)
-      - Root directory: Оставить пустым
-      - Environment: Docker
-      - Plan Type: Какой предпочитаете
+      - `Name` Произвольное имя
+      - `Region` Тотже, что и у базы данных
+      - `Branch` main (e.g., master/main)
+      - `Root` directory Оставить пустым
+      - `Environment` Docker
 
     - Открыть раздел "Advanced" и указать переменные окружения:
 
