@@ -23,7 +23,8 @@
 
 4.  При успешном завершении логи имеют сдедущий вид. Их всегда можно посмотреть на владке `Logs`
 
-      ```System check identified no issues (0 silenced).
+      ```bash
+      System check identified no issues (0 silenced).
       August 12, 2023 - 01:43:01
       Django version 4.2.3, using settings 'config.settings'
       Starting development server at http://0.0.0.0:8000/
