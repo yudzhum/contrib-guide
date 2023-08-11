@@ -16,5 +16,5 @@
 13. Check if Request passed GithubActions
 14. Wait, until PR is reviewed
 
-hexlet instruction for open-source participants 
+hexlet instruction for open-source participants: \
 https://ru.hexlet.io/blog/posts/participate-in-open-source
