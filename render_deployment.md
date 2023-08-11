@@ -12,46 +12,32 @@
       - `Root` directory Оставить пустым
       - `Environment` Docker
 
-    - Открыть раздел "Advanced" и указать переменные окружения:
+    - Открыть раздел "Advanced" и добавить переменные окружения:
 
       - `PORT` - присвойте значение 8000
       - `GITHUB_AUTH_TOKEN`
       - `SECRET_KEY`
       - `DATABASE_URL`: Internal Database URL из базы данных на Render
-6.
-7.
-8.
-9.
-10.
-11.   Переходим в настройки нашего приложения. Нам необходимо:
+     
+   - `Create Web Service`
 
-   - настроить переменные окружения на вкладке `Variables`. Вам понадобятся:
+4.  При успешном завершении логи имеют сдедущий вид. Их всегда можно посмотреть на владке `Logs`
 
-        - `PORT` - присвойте значение 8000, после нажмите на три вертикальные точки справа от переменной и выберите `Promote` - это позволит использовать данный порт для входа в приложение.
-        - `GITHUB_AUTH_TOKEN`
-        - `SECRET_KEY`
-        - `POSTGRES_DB`
-        - `POSTGRES_USER`
-        - `POSTGRES_PASSWORD`
-        - `POSTGRES_HOST`
-        - `POSTGRES_PORT`
+      ```System check identified no issues (0 silenced).
+      August 12, 2023 - 01:43:01
+      Django version 4.2.3, using settings 'config.settings'
+      Starting development server at http://0.0.0.0:8000/
+      Quit the server with CONTROL-C.
+ 
+      Your service is live 🎉
+      ```
 
-    Переменные `PostgreSQL` можно использовать через `Add reference` при создании переменной для приложения
+5.  Теперь приложение будет доступно по ссылке `.onrender.com` на странице приложения.
 
-   - выбрать ветку, изменения из которой будут отслеживаться в меню `Automatic Deployments` на вкладке `Settings`
-   - в графе `Domains` нажмем кнопку `Generate Domain` для генерации домена для доступа к приложению
-   - в меню `Deployments` открывает `Deploy Logs` и убеждаемся, что все работает
+6. Приложение пустое
 
-    ```bash
-    Performing system checks...
-    ﻿System check identified no issues (0 silenced).
-    ﻿You have 36 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, contributors, custom_auth, sessions.
-    ﻿Run 'python manage.py migrate' to apply them.
-    ﻿June 21, 2023 - 09:22:50
-    ﻿Django version 4.1.9, using settings 'config.settings'
-    ﻿Starting development server at http://0.0.0.0:8000/
-    ﻿Quit the server with CONTROL-C.
-    ```
+
+
 
 7. Как видим миграции не приняты, для этого перейдем вновь на вкладку `Settings` в настройках приложения:
 
