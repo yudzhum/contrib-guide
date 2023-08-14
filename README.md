@@ -18,3 +18,4 @@
 
 hexlet instruction for open-source participants: \
 https://ru.hexlet.io/blog/posts/participate-in-open-source
+https://ru.hexlet.io/blog/posts/Open-Source-github
