@@ -11,7 +11,7 @@
       - `Region` Тотже, что и у базы данных
       - `Branch` main (e.g., master/main)
       - `Root` directory Оставить пустым
-      - `Environment` Docker
+      - `Runtime` Docker
 
     - Открыть раздел "Advanced" и добавить переменные окружения:
 
